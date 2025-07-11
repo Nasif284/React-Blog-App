@@ -1,0 +1,45 @@
+.homeMain{
+    margin-top: 80px;
+    padding-inline: 100px;
+    padding-block: 20px ;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.blogCard {
+    width: 30%;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.blogCard div{
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.blogCard div p{
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 1;
+}
+.blogCard button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200);
+    margin-top: 10px;
+}
+.cardFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardFooter p{
+    font-size: 15px;
+    color: rgb(114, 113, 113);
+    display: flex;
+    gap: 2px;
+    margin-bottom: 0;
+}

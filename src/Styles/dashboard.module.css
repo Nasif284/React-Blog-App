@@ -1,0 +1,48 @@
+.dashMain{
+    margin-top: 80px;
+        padding-inline: 100px;
+        padding-block: 20px;
+}
+.blogList{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.blogList thead th{
+    text-align: left;
+    font-size: 18px;
+}
+.blogList td,
+.blogList th{
+    padding-block: 8px;
+}
+.blogList button{
+    padding-block: 5px;
+    padding-inline: 7px;
+    border-radius: 5px;
+    color: white;
+}
+.edit{
+   background-color: blue;
+
+}
+.delete{
+    background-color: brown;
+}
+.dashHead{
+    display: flex;
+    justify-content: space-between;
+}
+.dashHead button{
+    padding-block: 6px;
+    padding-inline: 9px;
+    font-size: 16px;
+    background-color: rgb(38, 115, 58);
+    color: white;
+    border-radius: 7px;
+}
+.dashHead button:hover{
+    background-color: rgb(38, 115, 58);
+    outline: none;
+    border: none;
+}

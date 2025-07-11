@@ -1,0 +1,45 @@
+.loginMain{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+    background-color: rgb(194, 210, 210);
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+.loginForm input,
+.loginForm button{
+   width: 50%;
+   height: 40px;
+   padding: 5px;
+   border-radius: 10px;
+   font-size: 20px;
+}
+.loginForm input{
+    padding-left: 10px;
+}
+.loginForm button{
+    width: 50%;
+}
+.signUp{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
