@@ -13,7 +13,7 @@ const Navbar = () => {
         {user ? (
           <>
             {" "}
-            <span>Welcome {user.email}</span> <button onClick={logout}>Logout</button>{" "}
+            <span>Welcome {user.email.split('@')[0]}</span> <button onClick={logout}>Logout</button>{" "}
           </>
         ) : (
           <button>User Login</button>
